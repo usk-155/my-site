@@ -23,7 +23,6 @@
 
 
 <style scoped>
-
 #contact {
     outline: 1px solid;
 }

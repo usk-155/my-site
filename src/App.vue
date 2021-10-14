@@ -1,10 +1,12 @@
 <template>
   <div>
+    <div class="top whiteSpace"></div>
     <div id="app">
       <Header class="header"></Header>
       <router-view/>
       <Footer class="footer"></Footer>
     </div>
+    <div class="bottom whiteSpace"></div>
   </div>
 </template>
 
@@ -25,11 +27,14 @@ export default {
 </script>
 
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Noto+Sans+Display:wdth,wght@72.6,890&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Noto+Sans+Display:wdth,wght@72.6,890&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Noto+Sans+Display:wdth,wght@72.6,890&family=Noto+Sans+JP:wght@500;700&display=swap');
 
 #app {
   font-family: 
     "Montserrat",
+    "Noto Sans JP",
+
     "Helvetica Neue",
     Arial,
     "Hiragino Kaku Gothic ProN",
@@ -38,20 +43,32 @@ export default {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* text-align: center; */
-  margin: 0 20px 20px;
+  margin: 0 20px;
   color: #2c3e50;
   background-color: #f8f3ec;
 }
 
-.header {
+.whiteSpace {
+  background: #fff;
+  height: 20px;
+}
+.top {
   position: sticky;
   top: 0;
+}
+.bottom {
+  position: sticky;
+  bottom: 0;
+}
+
+.header {
+  position: sticky;
+  top: 20px;
 }
 
 .footer {
   position: sticky;
-  bottom: 0;
+  bottom: 21px;
 }
 
 </style>

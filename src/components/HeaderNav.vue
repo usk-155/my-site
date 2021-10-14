@@ -1,6 +1,5 @@
 <template>
 <div id="headerNav">
-    <div class="whiteSpace"></div>
     <div id="header" class="border-bottom border-end border-dark">
         <b-container fluid>
             <b-row class="row" >
@@ -9,7 +8,7 @@
                         <b-img :src="require('../assets/icon.jpg')" rounded="circle" alt="icon" class="iconImage ms-1"></b-img>
                         <div class="title ms-2">Usk's site</div>
                     </div>
-                    <div v-on:click="openMenu" class="menu d-flex align-items-center border-start border-dark border-2"><!--  border-start border-dark border-2 -->
+                    <div v-on:click="openMenu" class="menu d-flex align-items-center border-start border-dark border-2">
                         <b-icon-list class="mx-3"></b-icon-list>
                     </div>
                 </b-col>
@@ -67,23 +66,11 @@ export default {
             }
         },
         closeMenu() {
-            this.open = false;      // 「openをfalseにする」
+            this.open = false;          // 「openをfalseにする」
         }
 
     },
 };
-
-// new Vue({
-//     el: "#headerNav",
-//     data: {
-//         isActive: true
-//     },
-//     methods: {
-//         toggle: function() {
-//             this.isActive = !this.isActive;
-//         }
-//     }
-// });
 
 
 
@@ -94,18 +81,17 @@ export default {
 <style scoped>
 #header {
     background-color: #f8f3ec;
-    /* text-align: center; */
-    outline: 1px solid;
-}
-
-.test {
-    height: 40px;            /*  */
     outline: 1px solid;
 }
 
 .whiteSpace {
     background: #fff;
     height: 20px;
+}
+
+.test {
+    height: 40px;            /*  */
+    outline: 1px solid;
 }
 
 .box {
@@ -135,11 +121,9 @@ export default {
 }
 .menu {
     color: #2c3e50;
-    /* display: inline-block; */
     font-size: 20px;
     vertical-align: middle;
     display: table-cell;
-    /* line-height: 40px;             */
     cursor: pointer;
 }
 
@@ -156,8 +140,6 @@ export default {
 /* ---------- メニュー ---------- */
 
 .dropMenu{
-    /* transform: translateX(100vw); */
-    /* transition: all .3s linear; */
     position: absolute;
     width: 100%;
     z-index: 2;
@@ -165,9 +147,12 @@ export default {
 }
 
 /* アニメーション後のメニューの状態 */
+
+/* 
 .dropMenu.is-active{
-    transform: translateX(0);
+
 }
+*/
 
 
 
