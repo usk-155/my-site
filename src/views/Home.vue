@@ -33,13 +33,13 @@ h1 {
     color: #2c3e50;
     text-align: start;
     /* height: 40rem; */
-    font-size: 120px;
+    font-size: max(17vw,80px);
 }
 h2 {
     color: #2c3e50;
     text-align: start;
     /* height: 40rem; */
-    font-size: 48px;
+    font-size: max(7vw,36px);
 }
 
 </style>
