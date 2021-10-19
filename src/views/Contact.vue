@@ -31,6 +31,15 @@
     outline: 1px solid;
 }
 
+a {
+    color: #2c3e50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8rem;
+    text-decoration:none;
+    font-size: 60px;
+}
 
 
 </style>
