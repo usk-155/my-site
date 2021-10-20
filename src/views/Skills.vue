@@ -1,17 +1,81 @@
 <template>
     <div id="skills" class="border-end border-dark">
         <div class="box border-start border-dark">
-            <a>skills</a>
+            <h1>Skills</h1>
         </div>
-        <b-container fluid>
-            <b-row>
-                <b-col class="box border-top border-start border-dark">
-                    <img src="../assets/logo.png">
-                    <p>skills1</p>
+        <b-container fluid class="box border-start border-dark">
+            <b-row class="skillsBody pt-3 px-2">
+<!-- 1 -->
+                <b-col cols="12" md="6">
+                    <b-row>
+                        <b-col cols="3" lg="2" class="px-0">
+                            <b-img center :src="require('../assets/logo_html5.svg')" class="logo" fluid-grow alt="Responsive image"></b-img>
+                            <a class="name">HTML</a>
+                        </b-col>
+                        <b-col cols="9" lg="10">
+                            <p>テキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                        </b-col>
+                    </b-row>
                 </b-col>
-                <b-col class="box border-top border-start border-dark">
-                    <img src="../assets/logo.png">
-                    <p>skills2</p>
+<!-- 2 -->
+                <b-col cols="12" md="6">
+                    <b-row>
+                        <b-col cols="3" lg="2" class="px-0">
+                            <b-img center :src="require('../assets/logo_css3.svg')" class="logo" fluid-grow alt="Responsive image"></b-img>
+                            <a class="name">CSS</a>
+                        </b-col>
+                        <b-col cols="9" lg="10">
+                            <p>テキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                        </b-col>
+                    </b-row>
+                </b-col>
+<!-- 3 -->
+                <b-col cols="12" md="6">
+                    <b-row>
+                        <b-col cols="3" lg="2" class="px-0">
+                            <b-img center :src="require('../assets/logo_javascript.svg')" class="logo" fluid-grow alt="Responsive image"></b-img>
+                            <a class="name">Javascript</a>
+                        </b-col>
+                        <b-col cols="9" lg="10">
+                            <p>テキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                        </b-col>
+                    </b-row>
+                </b-col>
+<!-- 4 -->
+                <b-col cols="12" md="6">
+                    <b-row>
+                        <b-col cols="3" lg="2" class="px-0">
+                            <b-img center :src="require('../assets/logo_bootstrap.svg')" class="logo" fluid-grow alt="Responsive image"></b-img>
+                            <a class="name">Bootstrap</a>
+                        </b-col>
+                        <b-col cols="9" lg="10">
+                            <p>テキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                        </b-col>
+                    </b-row>
+                </b-col>
+<!-- 5 -->
+                <b-col cols="12" md="6">
+                    <b-row>
+                        <b-col cols="3" lg="2" class="px-0">
+                            <b-img center :src="require('../assets/logo_vuejs.svg')" class="logo" fluid-grow alt="Responsive image"></b-img>
+                            <a class="name">Vue.js</a>
+                        </b-col>
+                        <b-col cols="9" lg="10">
+                            <p>テキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                        </b-col>
+                    </b-row>
+                </b-col>
+<!-- 6 -->
+                <b-col cols="12" md="6">
+                    <b-row>
+                        <b-col cols="3" lg="2" class="px-0">
+                            <b-img center :src="require('../assets/logo_firebase.svg')" class="logo" fluid-grow alt="Responsive image"></b-img>
+                            <a class="name">firebase</a>
+                        </b-col>
+                        <b-col cols="9" lg="10">
+                            <p>テキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                        </b-col>
+                    </b-row>
                 </b-col>
             </b-row>
         </b-container>
@@ -31,6 +95,13 @@
     outline: 1px solid;
 }
 
+.skillsBody {
+    width: calc(95%);
+    margin: 0 auto;
+}
+
+
+/* 
 a {
     color: #2c3e50;
     display: flex;
@@ -40,6 +111,39 @@ a {
     text-decoration:none;
     font-size: 60px;
 }
+ */
+
+h1 {
+    color: #2c3e50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8rem;
+    font-size: 60px;
+    margin-bottom: 0;
+}
+
+.logo {
+    max-width: 90px;
+}
+
+a {
+    color: #2c3e50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration:none;
+    text-align: justify;
+    font-size: clamp(5px, 4vw, 19px);
+}
+
+/* 
+.name {
+    display: inline;
+    font-size: max(3vw,5px);
+    text-align: center;
+}
+ */
 
 </style>
 
