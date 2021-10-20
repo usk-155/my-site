@@ -5,6 +5,7 @@
                 <b-col cols="12" lg="6" class="box border-top border-start border-dark px-0">
                     <h1>Usk's</h1>
                     <h2>PORTFOLIO</h2>
+                    <h2>test</h2>
                 </b-col>
                 <b-col cols="12" lg="6" class="box border-top border-start border-dark px-0">
                     <b-img :src="require('../assets/home_bg.jpg')" fluid-grow alt="Responsive image"></b-img>
