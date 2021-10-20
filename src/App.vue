@@ -43,14 +43,14 @@ export default {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  margin: 0 20px;
+  margin: 0 10px;
   color: #2c3e50;
   background-color: #f8f3ec;
 }
 
 .whiteSpace {
   background: #fff;
-  height: 20px;
+  height: 10px;
 }
 .top {
   position: sticky;
@@ -63,12 +63,12 @@ export default {
 
 .header {
   position: sticky;
-  top: 20px;
+  top: 10px;
 }
 
 .footer {
   position: sticky;
-  bottom: 21px;
+  bottom: 10px;
 }
 
 </style>
