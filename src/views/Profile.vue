@@ -1,7 +1,7 @@
 <template>
     <div id="profile" class="border-end border-dark">
         <div class="box border-start border-dark">
-            <a>profile</a>
+            <h1>Profile</h1>
         </div>
         <b-container fluid class="contents">
             <b-row>
@@ -67,15 +67,16 @@ export default {
     white-space: pre-wrap;
 }
 
-a {
+h1 {
     color: #2c3e50;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 8rem;
-    text-decoration:none;
     font-size: 60px;
+    margin-bottom: 0;
 }
+
 
 </style>
 
