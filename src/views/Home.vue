@@ -5,14 +5,18 @@
                 <b-col cols="12" lg="6" class="box border-top border-start border-dark px-0">
                     <h1>Usk's</h1>
                     <h2>PORTFOLIO</h2>
-                    <h2>test</h2>
                 </b-col>
                 <b-col cols="12" lg="6" class="box border-top border-start border-dark px-0">
                     <b-img :src="require('../assets/home_bg.jpg')" fluid-grow alt="Responsive image"></b-img>
-                    <p>home2</p>
                 </b-col>
             </b-row>
         </b-container>
+        <div class="box border-top border-start border-dark my-0 px-0">
+            <div class="text">
+                <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                <p class="mb-0">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+            </div>
+        </div>
     </div>
 </template>
 
@@ -34,14 +38,21 @@ h1 {
     color: #2c3e50;
     text-align: start;
     /* height: 40rem; */
-    font-size: max(17vw,80px);
+    font-size: min(174px, 32vw);
 }
 h2 {
     color: #2c3e50;
     text-align: start;
     /* height: 40rem; */
-    font-size: max(7vw,36px);
+    font-size: min(78px, 14vw);
 }
+
+.text {
+    width: calc(70%);
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
 
 </style>
 
