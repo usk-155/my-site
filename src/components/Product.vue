@@ -1,5 +1,5 @@
 <template>
-<b-col cols="12" md="6" class="box border-top border-start border-dark px-4">
+<b-col cols="12" md="6" class="box border-top border-start border-dark px-4 pt-2">
     <h2>{{ content.title }}</h2>
     <a :href="content.href"><img :src="require(`@/assets/${content.img_src}.png`)"></a>
     <p class="text">{{ content.text }}</p>
@@ -27,10 +27,13 @@ export default {
 
 img {
     max-width: 100%;
+    outline: 2px solid #2c3e50;
 }
 
 .text {
-    font-size: 18px;
+    font-size: 15px;
+        white-space: pre-wrap;
+
 }
 
 .lang {

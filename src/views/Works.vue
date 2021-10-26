@@ -26,18 +26,18 @@ export default {
         return {
             contents:[
                 {
-                title: "ポートフォリオ",
+                title: "ポートフォリオサイト",
                 img_src: "portfolio",
                 href: "http://my-portfolio-905cf.web.app/",
-                text: "グリッドで区切ったレイアウトで視覚的にわかりやすくシンプルなデザインにしました。",
+                text: "当ポートフォリオサイトです。\nグリッドで区切ったレイアウトで視覚的にわかりやすくシンプルなデザインにしました。",
                 lang: "・使用言語など ： HTML / CSS / Vue.js / Javascript / bootstrapvue / firebase"
                 },
                 {
                 title: "Weather app",
                 img_src: "tenki_app",
                 href: "",
-                text: "TODOテキスト",
-                lang: ""
+                text: "天気情報から行きたいスキー場の選定に役立つWEB APPです。\nOpen Weather Mapの天気APIを使用して、位置座標からスキー場の天気予報を表示ます。\n全国のスキー場リストから、明日行きたいスキー場にチェックを入れると、向こう２日の天気情報を表示してくれます。",
+                lang: "・使用言語など ： HTML / CSS / Javascript / Bootstrap / OpenWeatherMap API"
                 },
                 {
                 title: "TODO app",

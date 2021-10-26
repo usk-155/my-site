@@ -5,10 +5,10 @@
         </div>
         <b-container fluid class="contents">
             <b-row>
-                <b-col cols="12" lg="6" class="box border-top border-start border-dark">
+                <b-col cols="12" md="6" class="box border-top border-start border-dark">
                     <b-img :src="require('../assets/icon.jpg')" fluid-grow alt="Responsive image" class="iconImage"></b-img>
                 </b-col>
-                <b-col cols="12" lg="6" class="box border-top border-start border-dark py-4">
+                <b-col cols="12" md="6" class="box border-top border-start border-dark py-4">
                     <table>
                         <tr v-for="list in lists" v-bind:key='list.item'>
                             <td class="item align-top">{{ list.item }}</td>

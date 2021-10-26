@@ -2,11 +2,11 @@
     <div id="home" class="border-bottom border-end border-dark">
         <b-container fluid class="contents">
             <b-row>
-                <b-col cols="12" lg="6" class="box border-top border-start border-dark px-0">
+                <b-col cols="12" md="6" class="box border-top border-start border-dark px-0">
                     <h1>Usk's</h1>
                     <h2>PORTFOLIO</h2>
                 </b-col>
-                <b-col cols="12" lg="6" class="box border-top border-start border-dark px-0">
+                <b-col cols="12" md="6" class="box border-top border-start border-dark px-0">
                     <b-img :src="require('../assets/home_bg.jpg')" fluid-grow alt="Responsive image"></b-img>
                 </b-col>
             </b-row>
@@ -40,14 +40,14 @@
 h1 {
     color: #2c3e50;
     text-align: start;
-    /* height: 40rem; */
-    font-size: min(174px, 32vw);
+    font-size: min(136px, 32vw);
+    /* font-size: min(174px, 32vw); */
 }
 h2 {
     color: #2c3e50;
     text-align: start;
-    /* height: 40rem; */
-    font-size: min(78px, 14vw);
+    font-size: min(60px, 14vw);
+    /* font-size: min(78px, 14vw); */
 }
 
 .text {
