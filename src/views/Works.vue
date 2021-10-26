@@ -5,20 +5,57 @@
         </div>
         <b-container fluid>
             <b-row>
-                <b-col class="box border-top border-start border-dark">
-                    <img src="../assets/logo.png">
-                    <p>work1</p>
-                </b-col>
-                <b-col class="box border-top border-start border-dark">
-                    <img src="../assets/logo.png">
-                    <p>work2</p>
-                </b-col>
+                <Product class="product"
+                    v-for="content in contents"
+                    v-bind:key="content.id"
+                    v-bind:content="content" />
             </b-row>
         </b-container>
     </div>
 </template>
 
 <script>
+import Product from '../components/Product.vue'
+
+export default {
+    name: 'Works',
+    components: {
+        Product,
+    },
+    data () {
+        return {
+            contents:[
+                {
+                title: "ポートフォリオ",
+                img_src: "portfolio",
+                href: "http://my-portfolio-905cf.web.app/",
+                text: "グリッドで区切ったレイアウトで視覚的にわかりやすくシンプルなデザインにしました。",
+                lang: "・使用言語など ： HTML / CSS / Vue.js / Javascript / bootstrapvue / firebase"
+                },
+                {
+                title: "Weather app",
+                img_src: "tenki_app",
+                href: "",
+                text: "TODOテキスト",
+                lang: ""
+                },
+                {
+                title: "TODO app",
+                img_src: "logo",
+                fref: "",
+                text: "weatherテキスト",
+                lang: ""
+                },
+                {
+                title: "coming soon",
+                img_src: "logo",
+                text: ""
+                }
+            ]
+        }
+    }
+}
+
 </script>
 
 
