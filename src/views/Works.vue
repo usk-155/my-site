@@ -33,11 +33,11 @@ export default {
                 lang: "・使用言語など ： HTML / CSS / Vue.js / Javascript / bootstrapvue / firebase"
                 },
                 {
-                title: "Weather app",
+                title: "スキー場 Weather app",
                 img_src: "tenki_app",
-                href: "",
-                text: "天気情報から行きたいスキー場の選定に役立つWEB APPです。\nOpen Weather Mapの天気APIを使用して、位置座標からスキー場の天気予報を表示ます。\n全国のスキー場リストから、明日行きたいスキー場にチェックを入れると、向こう２日の天気情報を表示してくれます。",
-                lang: "・使用言語など ： HTML / CSS / Javascript / Bootstrap / OpenWeatherMap API"
+                href: "https://tomorrow-ski.web.app/",
+                text: "天気情報から行きたいスキー場の選定に役立つWEB APPです。\nOpen Weather Mapの天気APIを使用して、位置座標からスキー場の天気予報を表示ます。\nチェックイン日の指定し、リストから行きたいスキー場にチェックを入れ、OKを押すと、向こう２日の天気情報を表示してくれます。\nJavaScriptの学習の後に最初に手掛けたアプリで、ライブラリやフレームワークは使わずにJavaScriptのみで作成しました。",
+                lang: "・使用言語など ： HTML / CSS / Javascript / OpenWeatherMap API"
                 },
                 {
                 title: "TODO app",
