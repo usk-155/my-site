@@ -11,9 +11,9 @@
                 <b-col cols="12" md="6" class="box border-top border-start border-dark py-4">
                     <table>
                         <tr v-for="list in lists" v-bind:key='list.item'>
-                            <td class="item align-top">{{ list.item }}</td>
-                            <td class="align-top">：</td>
-                            <td class="content align-top">{{ list.content }}</td>
+                            <td class="item align-top"><p>{{ list.item }}</p></td>
+                            <td class="align-top"><p>：</p></td>
+                            <td class="content align-top"><p>{{ list.content }}</p></td>
                         </tr>
                     </table>
                 </b-col>
@@ -68,13 +68,16 @@ export default {
 }
 
 h1 {
-    color: #2c3e50;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 8rem;
     font-size: 60px;
     margin-bottom: 0;
+}
+
+p {
+    margin: 2px auto;
 }
 
 

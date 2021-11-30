@@ -82,7 +82,6 @@ a {
  */
 
 h1 {
-    color: #2c3e50;
     display: flex;
     justify-content: center;
     align-items: center;

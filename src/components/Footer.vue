@@ -1,7 +1,7 @@
 <template>
     <div id="footer" class="border-bottom border-end border-dark">
         <div class="border-top border-start border-dark">
-            <a>©️ 2021 Yusuke Nakajima</a>
+            <p>©️ 2021 Yusuke Nakajima</p>
         </div>
     </div>
 </template>
@@ -19,6 +19,11 @@ export default {
     background-color: #f8f3ec;
     outline: 1px solid;
     text-align: center;
+    margin-bottom: 1px;
+}
+
+p {
+    margin: 0 auto;
 }
 
 </style>

@@ -9,8 +9,8 @@
                 <b-col cols="12" md="6">
                     <b-row>
                         <b-col cols="3" lg="2" class="px-0">
-                            <b-img center :src="require('../assets/logo_html5.svg')" class="logo" fluid-grow alt="Responsive image"></b-img>
-                            <a class="name">HTML</a>
+                            <b-img center :src="require('../assets/logo_html5.png')" class="logo" fluid-grow alt="Responsive image"></b-img>
+                            <p class="name">HTML</p>
                         </b-col>
                         <b-col cols="9" lg="10">
                             <div class="chartBg"><div class="htmlChart"></div></div>
@@ -22,8 +22,8 @@
                 <b-col cols="12" md="6">
                     <b-row>
                         <b-col cols="3" lg="2" class="px-0">
-                            <b-img center :src="require('../assets/logo_css3.svg')" class="logo" fluid-grow alt="Responsive image"></b-img>
-                            <a class="name">CSS</a>
+                            <b-img center :src="require('../assets/logo_css3.png')" class="logo" fluid-grow alt="Responsive image"></b-img>
+                            <p class="name">CSS</p>
                         </b-col>
                         <b-col cols="9" lg="10">
                             <div class="chartBg"><div class="cssChart"></div></div>
@@ -35,8 +35,8 @@
                 <b-col cols="12" md="6">
                     <b-row>
                         <b-col cols="3" lg="2" class="px-0">
-                            <b-img center :src="require('../assets/logo_javascript.svg')" class="logo" fluid-grow alt="Responsive image"></b-img>
-                            <a class="name">Javascript</a>
+                            <b-img center :src="require('../assets/logo_javascript.png')" class="logo" fluid-grow alt="Responsive image"></b-img>
+                            <p class="name">Javascript</p>
                         </b-col>
                         <b-col cols="9" lg="10">
                             <div class="chartBg"><div class="javascriptChart"></div></div>
@@ -48,8 +48,8 @@
                 <b-col cols="12" md="6">
                     <b-row>
                         <b-col cols="3" lg="2" class="px-0">
-                            <b-img center :src="require('../assets/logo_bootstrap.svg')" class="logo" fluid-grow alt="Responsive image"></b-img>
-                            <a class="name">Bootstrap</a>
+                            <b-img center :src="require('../assets/logo_bootstrap.png')" class="logo" fluid-grow alt="Responsive image"></b-img>
+                            <p class="name">Bootstrap</p>
                         </b-col>
                         <b-col cols="9" lg="10">
                             <div class="chartBg"><div class="bootstrapChart"></div></div>
@@ -61,8 +61,8 @@
                 <b-col cols="12" md="6">
                     <b-row>
                         <b-col cols="3" lg="2" class="px-0">
-                            <b-img center :src="require('../assets/logo_vuejs.svg')" class="logo" fluid-grow alt="Responsive image"></b-img>
-                            <a class="name">Vue.js</a>
+                            <b-img center :src="require('../assets/logo_vuejs.png')" class="logo" fluid-grow alt="Responsive image"></b-img>
+                            <p class="name">Vue.js</p>
                         </b-col>
                         <b-col cols="9" lg="10">
                             <div class="chartBg"><div class="vuejsChart"></div></div>
@@ -74,8 +74,8 @@
                 <b-col cols="12" md="6">
                     <b-row>
                         <b-col cols="3" lg="2" class="px-0">
-                            <b-img center :src="require('../assets/logo_firebase.svg')" class="logo" fluid-grow alt="Responsive image"></b-img>
-                            <a class="name">firebase</a>
+                            <b-img center :src="require('../assets/logo_firebase.png')" class="logo" fluid-grow alt="Responsive image"></b-img>
+                            <p class="name">firebase</p>
                         </b-col>
                         <b-col cols="9" lg="10">
                             <div class="chartBg"><div class="firebaseChart"></div></div>
@@ -122,7 +122,6 @@ a {
  */
 
 h1 {
-    color: #2c3e50;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -135,8 +134,7 @@ h1 {
     max-width: 90px;
 }
 
-a {
-    color: #2c3e50;
+.name {
     display: flex;
     justify-content: center;
     align-items: center;

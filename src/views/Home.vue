@@ -38,13 +38,11 @@
 }
 
 h1 {
-    color: #2c3e50;
     text-align: start;
     font-size: min(136px, 32vw);
     /* font-size: min(174px, 32vw); */
 }
 h2 {
-    color: #2c3e50;
     text-align: start;
     font-size: min(60px, 14vw);
     /* font-size: min(78px, 14vw); */

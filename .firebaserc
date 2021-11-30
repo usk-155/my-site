@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "my-portfolio-905cf"
-  }
+    "default": "my-portfolio-905cf",
+    "What alias do you want to use for this project? (e.g. staging)": "usk-portfolio",
+    "Production": "usk-portfolio"
+  },
+  "targets": {}
 }

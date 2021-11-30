@@ -11,8 +11,8 @@
 </template>
 
 <script>
-import Header from './components/HeaderNav.vue'
-// import Header from './components/Header.vue'
+// import Header from './components/HeaderNav.vue'
+import Header from './components/Header.vue'
 import Footer from './components/Footer.vue'
 
 
@@ -44,8 +44,12 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   margin: 0 10px;
-  color: #2c3e50;
+  color: #212529;
   background-color: #f8f3ec;
+}
+
+h1, h2, p, .icon, .link {
+  color: #202f55;
 }
 
 .whiteSpace {
