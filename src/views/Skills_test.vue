@@ -1,7 +1,7 @@
 <template>
     <div id="skills" class="border-end border-dark">
         <div class="box border-start border-dark">
-            <h1>Skills</h1>
+            <h1>Skills TEST</h1>
         </div>
         <b-container fluid class="box border-start border-dark">
             <b-row class="skillsBody py-3 px-2">
@@ -74,6 +74,7 @@
                             <p class="name">Vue.js</p>
                         </b-col>
                         <b-col cols="9" lg="10">
+                            <div class="chartBg"><div class="vuejsChart"></div></div>
                             <div class="progress">
                                 <div class="progress-bar img-wrap" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">60%</div>
                             </div>

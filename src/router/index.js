@@ -8,6 +8,7 @@ import Home from '@/views/Home'
 import Profile from '@/views/Profile'
 import Works from '@/views/Works'
 import Skills from '@/views/Skills'
+// import Skills from '@/views/Skills_test'
 import Contact from '@/views/Contact'
 
 import HelloWorld from '@/components/HelloWorld'
