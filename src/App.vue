@@ -68,6 +68,7 @@ h1, h2, p, .icon, .link {
 .header {
   position: sticky;
   top: 10px;
+  z-index: 2;
 }
 
 .footer {

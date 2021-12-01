@@ -2,7 +2,7 @@
 <div id="headerNav">
     <div id="header" class="border-bottom border-end border-dark">
         <b-container fluid>
-            <b-row class="row" >
+            <b-row class="row">
 <!-- small -->
                 <b-col cols="12" class="box d-md-none d-flex justify-content-between border-top border-start border-dark px-0">
                     <div class="icon">
@@ -142,7 +142,6 @@ export default {
 .dropMenu{
     position: absolute;
     width: 100%;
-    z-index: 2;
     background-color: #f8f3ec;
 }
 
