@@ -4,12 +4,12 @@
             <h1>Skills</h1>
         </div>
         <b-container fluid class="box border-start border-dark">
-            <b-row class="skillsBody pt-3 px-2">
+            <b-row class="skillsBody py-3 px-2">
 <!-- 1 -->
-                <b-col cols="12" md="6">
+                <b-col cols="12" md="6" class="content">
                     <b-row>
                         <b-col cols="3" lg="2" class="px-0">
-                            <b-img center :src="require('../assets/logo_html5.png')" class="logo" fluid-grow alt="Responsive image"></b-img>
+                            <b-img center :src="require('../assets/logo_html5.png')" class="logo"></b-img> <!-- fluid-grow alt="Responsive image" -->
                             <p class="name">HTML</p>
                         </b-col>
                         <b-col cols="9" lg="10">
@@ -19,10 +19,10 @@
                     </b-row>
                 </b-col>
 <!-- 2 -->
-                <b-col cols="12" md="6">
+                <b-col cols="12" md="6" class="content">
                     <b-row>
                         <b-col cols="3" lg="2" class="px-0">
-                            <b-img center :src="require('../assets/logo_css3.png')" class="logo" fluid-grow alt="Responsive image"></b-img>
+                            <b-img center :src="require('../assets/logo_css3.png')" class="logo"></b-img> <!-- fluid-grow alt="Responsive image" -->
                             <p class="name">CSS</p>
                         </b-col>
                         <b-col cols="9" lg="10">
@@ -32,23 +32,24 @@
                     </b-row>
                 </b-col>
 <!-- 3 -->
-                <b-col cols="12" md="6">
+                <b-col cols="12" md="6" class="content">
                     <b-row>
                         <b-col cols="3" lg="2" class="px-0">
-                            <b-img center :src="require('../assets/logo_javascript.png')" class="logo" fluid-grow alt="Responsive image"></b-img>
+                            <b-img center :src="require('../assets/logo_javascript.png')" class="logo"></b-img> <!-- fluid-grow alt="Responsive image" -->
                             <p class="name">Javascript</p>
                         </b-col>
                         <b-col cols="9" lg="10">
                             <div class="chartBg"><div class="javascriptChart"></div></div>
                             <p>テキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                            <p>テキストテキストテキストテキストテキストテキストテキストテキスト</p>
                         </b-col>
                     </b-row>
                 </b-col>
 <!-- 4 -->
-                <b-col cols="12" md="6">
+                <b-col cols="12" md="6" class="content">
                     <b-row>
                         <b-col cols="3" lg="2" class="px-0">
-                            <b-img center :src="require('../assets/logo_bootstrap.png')" class="logo" fluid-grow alt="Responsive image"></b-img>
+                            <b-img center :src="require('../assets/logo_bootstrap.png')" class="logo"></b-img> <!-- fluid-grow alt="Responsive image" -->
                             <p class="name">Bootstrap</p>
                         </b-col>
                         <b-col cols="9" lg="10">
@@ -58,10 +59,10 @@
                     </b-row>
                 </b-col>
 <!-- 5 -->
-                <b-col cols="12" md="6">
+                <b-col cols="12" md="6" class="content">
                     <b-row>
                         <b-col cols="3" lg="2" class="px-0">
-                            <b-img center :src="require('../assets/logo_vuejs.png')" class="logo" fluid-grow alt="Responsive image"></b-img>
+                            <b-img center :src="require('../assets/logo_vuejs.png')" class="logo"></b-img> <!-- fluid-grow alt="Responsive image" -->
                             <p class="name">Vue.js</p>
                         </b-col>
                         <b-col cols="9" lg="10">
@@ -71,10 +72,10 @@
                     </b-row>
                 </b-col>
 <!-- 6 -->
-                <b-col cols="12" md="6">
+                <b-col cols="12" md="6" class="content">
                     <b-row>
                         <b-col cols="3" lg="2" class="px-0">
-                            <b-img center :src="require('../assets/logo_firebase.png')" class="logo" fluid-grow alt="Responsive image"></b-img>
+                            <b-img center :src="require('../assets/logo_firebase.png')" class="logo"></b-img> <!-- fluid-grow alt="Responsive image" -->
                             <p class="name">firebase</p>
                         </b-col>
                         <b-col cols="9" lg="10">
@@ -108,18 +109,9 @@
     margin: 0 auto;
 }
 
-
-/* 
-a {
-    color: #2c3e50;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 8rem;
-    text-decoration:none;
-    font-size: 60px;
+.content {
+    margin-bottom: 10px;
 }
- */
 
 h1 {
     display: flex;
@@ -129,9 +121,19 @@ h1 {
     font-size: 60px;
     margin-bottom: 0;
 }
+p {
+    margin: 0 auto;
+}
+
+/* 
+.logo {
+    max-height: 100px;
+    margin: auto 5px;
+} */
 
 .logo {
-    max-width: 90px;
+    max-width: 50px;
+    margin: auto 5px;
 }
 
 .name {
@@ -142,6 +144,7 @@ h1 {
     text-align: justify;
     font-size: clamp(5px, 4vw, 19px);
 }
+
 
 .chartBg {
     background-color: #d3d3d3;
