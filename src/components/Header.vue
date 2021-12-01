@@ -9,7 +9,7 @@
                         <b-img :src="require('../assets/icon.jpg')" rounded="circle" alt="icon" class="iconImage ms-1"></b-img>
                         <div class="title ms-2">Usk's site</div>
                     </div>
-                    <div v-on:click="openMenu" class="box manu nav d-flex align-items-center border-start border-dark">
+                    <div v-on:click="openMenu = !openMenu" class="box manu nav d-flex align-items-center border-start border-dark">
                         <b-icon-list class="mx-3"></b-icon-list>
                     </div>
                 </b-col>
@@ -39,13 +39,22 @@
         </b-container>
     </div>
 <!-- pulldown menu -->
-    <div class="dropMenu border-bottom border-dark" v-show="open" v-on:mouseleave="closeMenu" v-on:click="closeMenu">
-        <div class="menu__item menu border border-dark px-0"><RouterLink to="/" class="link">Home</RouterLink></div>
-        <div class="menu__item menu border border-dark px-0"><RouterLink to="/Profile" class="link">Profile</RouterLink></div>
-        <div class="menu__item menu border border-dark px-0"><RouterLink to="/Works" class="link">Works</RouterLink></div>
-        <div class="menu__item menu border border-dark px-0"><RouterLink to="/Skills" class="link">Skills</RouterLink></div>
-        <div class="menu__item menu border border-dark px-0"><RouterLink to="/Contact" class="link">Contact</RouterLink></div>
-    </div>
+    <transition
+        name="expand"
+        @enter="enter"
+        @after-enter="afterEnter"
+        @leave="leave"
+        @after-leave="afterLeave"
+    >
+        <div class="dropMenu box border-bottom border-dark" v-show="openMenu" v-on:mouseleave="closeMenu" v-on:click="closeMenu">
+            <div class="menu__item menu border border-dark px-0"><RouterLink to="/" class="link">Home</RouterLink></div>
+            <div class="menu__item menu border border-dark px-0"><RouterLink to="/Profile" class="link">Profile</RouterLink></div>
+            <div class="menu__item menu border border-dark px-0"><RouterLink to="/Works" class="link">Works</RouterLink></div>
+            <div class="menu__item menu border border-dark px-0"><RouterLink to="/Skills" class="link">Skills</RouterLink></div>
+            <div class="menu__item menu border border-dark px-0"><RouterLink to="/Contact" class="link">Contact</RouterLink></div>
+        </div>
+    </transition>
+
 
 </div>
 </template>
@@ -55,22 +64,27 @@ export default {
     name: 'Header',
     data() {
         return {
-            open: false,
+            openMenu: false,
         };
     },
     methods: {
-        openMenu() {                    // buttonで呼び出される関数
-            if (this.open === false) {  // 「もしopenがfalse(=初期状態)なら」
-                this.open = true;       // 「openをtrue状態にする(="v-show"部分を表示する)」
-            } else {                    // 「そうでなければ(=openがtrue状態なら)」
-                this.open = false;      // 「openをfalseにする」
-            }
+        beforeEnter(el) {
+            el.style.height = "0";
+        },
+        enter(el) {
+            el.style.height = el.scrollHeight + "px";
+        },
+        beforeLeave(el) {
+            el.style.height = el.scrollHeight + "px";
+        },
+        leave(el) {
+            el.style.height = "0";
         },
         closeMenu() {
-            this.open = false;          // 「openをfalseにする」
+            this.openMenu = false;
         }
 
-    },
+    }
 };
 
 
@@ -138,6 +152,18 @@ export default {
 }
 
 /* ---------- メニュー ---------- */
+
+
+.expand-enter-active,
+.expand-leave-active {
+    transition: height .5s ease-in-out;
+    overflow: hidden;
+}
+.expand-enter,
+.expand-leave-to {
+    height: 0;
+}
+
 
 .dropMenu{
     position: absolute;
