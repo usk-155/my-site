@@ -37,16 +37,25 @@
     outline: 1px solid;
 }
 
-h1 {
-    text-align: start;
-    font-size: min(136px, 32vw);
-    /* font-size: min(174px, 32vw); */
+@media (max-width: 767px) {
+    h1 {
+        text-align: start;
+        font-size: 32vw;
+    }
+    h2 {
+        text-align: start;
+        font-size: 14vw;
+    }
 }
-h2 {
-    text-align: start;
-    font-size: min(60px, 14vw);
-    /* font-size: min(78px, 14vw); */
-}
+@media (min-width: 768px) {
+    h1 {
+        text-align: start;
+        font-size: 16vw;
+    }
+    h2 {
+        text-align: start;
+        font-size: 7vw;
+    }}
 
 .text {
     width: calc(70%);
