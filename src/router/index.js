@@ -10,6 +10,7 @@ import Works from '@/views/Works'
 import Skills from '@/views/Skills'
 // import Skills from '@/views/Skills_test'
 import Contact from '@/views/Contact'
+// import Contact from '@/views/Contact_test'
 
 import HelloWorld from '@/components/HelloWorld'
 

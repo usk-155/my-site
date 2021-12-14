@@ -48,8 +48,9 @@ export default {
   background-color: #f8f3ec;
 }
 
-h1, h2, p, .icon, .link {
+h1, h2, p, .icon, .link, .form-group, .btn {
   color: #202f55;
+  /* color: red; */
 }
 
 .whiteSpace {
