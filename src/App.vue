@@ -75,6 +75,7 @@ h1, h2, p, .icon, .link, .form-group, .btn {
 .footer {
   position: sticky;
   bottom: 10px;
+  z-index: 2;
 }
 
 </style>

@@ -19,7 +19,7 @@
                 </div>
 
                 <div class="form-group py-2">
-                    <b-container fluid> <!-- fluid -->
+                    <b-container fluid>
                         <b-row>
                             <b-col cols="12" lg="2" class="subject">
                                 <label for="msg-email">メールアドレス</label>
@@ -32,7 +32,7 @@
                 </div>
 
                 <div class="form-group py-2">
-                    <b-container fluid> <!-- fluid -->
+                    <b-container fluid>
                         <b-row>
                             <b-col cols="12" lg="2" class="subject">
                                 <label for="msg-message">お問合せ内容</label>
@@ -44,7 +44,7 @@
                     </b-container>
                 </div>
                 <div class="form-group py-2">
-                    <b-container fluid> <!-- fluid -->
+                    <b-container fluid>
                         <b-row>
                             <b-col cols="12" lg="2" class="subject">
                             </b-col>
@@ -55,7 +55,7 @@
                     </b-container>
                 </div>
                 <div class="form-group py-2">
-                    <b-container fluid> <!-- fluid -->
+                    <b-container fluid>
                         <b-row>
                             <b-col cols="12" lg="2" class="subject">
                             </b-col>
@@ -70,19 +70,6 @@
                 </div>
             </form>
         </div>
-
-        <b-container fluid>
-            <b-row>
-                <b-col class="box border-top border-start border-dark">
-                    <img src="../assets/logo.png">
-                    <p>contact1</p>
-                </b-col>
-                <b-col class="box border-top border-start border-dark">
-                    <img src="../assets/logo.png">
-                    <p>contact2</p>
-                </b-col>
-            </b-row>
-        </b-container>
     </div>
 </template>
 

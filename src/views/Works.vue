@@ -29,21 +29,21 @@ export default {
                 title: "ポートフォリオサイト",
                 img_src: "portfolio",
                 href: "http://my-portfolio-905cf.web.app/",
-                text: "当ポートフォリオサイトです。\nグリッドで区切ったレイアウトで視覚的にわかりやすくシンプルなデザインにしました。",
-                lang: "・使用言語など ： HTML / CSS / Vue.js / Javascript / bootstrapvue / firebase"
+                text: "　当ポートフォリオサイトです。\n　グリッドで区切ったレイアウトで視覚的にわかりやすくシンプルなデザインにしました。",
+                lang: "・使用言語など：\n　HTML / CSS / Vue.js / Javascript / bootstrapvue / firebase"
                 },
                 {
                 title: "スキー場 Weather app",
                 img_src: "tenki_app",
                 href: "https://tomorrow-ski.web.app/",
-                text: "天気情報から行きたいスキー場の選定に役立つWEB APPです。\nOpen Weather Mapの天気APIを使用して、位置座標からスキー場の天気予報を表示ます。\nチェックイン日の指定し、リストから行きたいスキー場にチェックを入れ、OKを押すと、向こう２日の天気情報を表示してくれます。\nJavaScriptの学習の後に最初に手掛けたアプリで、ライブラリやフレームワークは使わずにJavaScriptのみで作成しました。",
-                lang: "・使用言語など ： HTML / CSS / Javascript / OpenWeatherMap API"
+                text: "　天気情報から行きたいスキー場の選定に役立つWEB APPです。\n　Open Weather Mapの天気APIを使用して、位置座標からスキー場の天気予報を表示ます。\n　チェックイン日の指定し、リストから行きたいスキー場にチェックを入れ、OKを押すと、向こう２日の天気情報を表示してくれます。\n　JavaScriptの学習の後に最初に手掛けたアプリで、ライブラリやフレームワークは使わずにJavaScriptのみで作成しました。",
+                lang: "・使用言語など：\n　HTML / CSS / Javascript / OpenWeatherMap API"
                 },
                 {
                 title: "TODO app",
                 img_src: "logo",
                 fref: "",
-                text: "weatherテキスト",
+                text: "",
                 lang: ""
                 },
                 {

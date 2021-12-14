@@ -9,6 +9,7 @@ yarn-error.log*
 selenium-debug.log
 .env
 .github/workflows
+src/**/*_test.vue
 
 # Editor directories and files
 .idea
