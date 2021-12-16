@@ -3,8 +3,14 @@
         <div class="box border-start border-dark">
             <h1>Contact</h1>
         </div>
-        <div class="box border-start border-dark p-3">
-            <form class="contact-form" @submit.prevent="sendMail">
+        <div class="box border-start border-dark">
+            <div class="overview py-3 px-5">
+                <p class="mb-2">　サイトをご覧いただき誠にありがとうございました。下記フォームより、ご感想など、お気軽にご連絡ください。</p>
+                <p class="mb-2">　現在エンジニア職へ転職活動中ですので、お仕事のオファーももちろん承ります。</p>
+                <p class="mb-2">　よろしくお願いいたします。</p>
+                <p class="mb-2 small">※ お問い合わせ内容は入力いただいた「メールアドレス」自動返信されます<br/>※ 早急にご返信いたしますが、2〜3日返信がない場合は、お手数ですが、再度ご連絡くださいますよう、お願い申し上げます。</p>
+            </div>
+            <form class="contact-form p-3" @submit.prevent="sendMail">
                 <div class="form-group py-2">
                     <b-container fluid> <!-- fluid -->
                         <b-row>
@@ -141,6 +147,10 @@ h1 {
     height: 8rem;
     font-size: 60px;
     margin-bottom: 0;
+}
+
+.small {
+    font-size: 11px;
 }
 
 @media (min-width: 992px) {
