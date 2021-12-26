@@ -145,7 +145,7 @@ p {
     align-items: center;
     text-decoration:none;
     text-align: justify;
-    font-size: clamp(4px, 5vw, 15px);
+    font-size: clamp(2px, 3.5vw, 15px);
 }
 
 
