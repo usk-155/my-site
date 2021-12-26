@@ -7,7 +7,7 @@
             <b-row class="skillsBody"> <!-- py-3 px-2 -->
                 <b-col cols="12" class="py-4 px-4">
                     <p>　実務未経験ながら独学でスキルアップしてきました。</p>
-                    <p>　実務経験がございませんので、下記チャートも業務に携わるにあたり必要十分ではないかと思いましが、学習状況等踏まえ自己評価させていただきました。</p>
+                    <p>　実務経験がございませんので、下記チャートも業務に携わるにあたり必要十分ではないかと思いますが、学習状況等踏まえ自己評価させていただきました。</p>
                 </b-col>
 <!-- 1 -->
                 <b-col cols="12" md="6" class="content mb-3">
@@ -20,26 +20,11 @@
                             <div class="progress">
                                 <div class="progress-bar img-wrap" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">60%</div>
                             </div>
-                            <p>　レスポンシブデザインも含め、基本的な基本的なコーディングは問題ないと思います。使用エディターはVisualStudioCodeです。</p>
+                            <p>　レスポンシブデザインも含め、基本的なコーディングは問題ないかと思います。使用エディターはVisualStudioCodeです。</p>
                         </b-col>
                     </b-row>
                 </b-col>
 <!-- 2 -->
-                <!-- <b-col cols="12" md="6" class="content">
-                    <b-row>
-                        <b-col cols="3" lg="2" class="px-0">
-                            <b-img center :src="require('../assets/logo_css3.png')" class="logo"></b-img>
-                            <p class="name">CSS</p>
-                        </b-col>
-                        <b-col cols="9" lg="10">
-                            <div class="progress">
-                                <div class="progress-bar img-wrap" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">60%</div>
-                            </div>
-                            <p>テキストテキストテキストテキストテキストテキストテキストテキスト</p>
-                        </b-col>
-                    </b-row>
-                </b-col> -->
-<!-- 3 -->
                 <b-col cols="12" md="6" class="content mb-3">
                     <b-row>
                         <b-col cols="3" class="px-0">
@@ -50,12 +35,12 @@
                             <div class="progress">
                                 <div class="progress-bar img-wrap" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">40%</div>
                             </div>
-                            <p>　学習するにあたり、ライブラリを使用せずに天気予報アプリを作成しています。</p>
+                            <p>　学習するにあたり、ライブラリを使用せずに天気予報アプリを作成しました。</p>
                             <p>　ウェブアプリを作成して面白さが見えてきたところです。奥が深くこれから学習すべきことが多いと感じています。</p>
                         </b-col>
                     </b-row>
                 </b-col>
-<!-- 4 -->
+<!-- 3 -->
                 <b-col cols="12" md="6" class="content mb-3">
                     <b-row>
                         <b-col cols="3" class="px-0">
@@ -71,7 +56,7 @@
                         </b-col>
                     </b-row>
                 </b-col>
-<!-- 5 -->
+<!-- 4 -->
                 <b-col cols="12" md="6" class="content mb-3">
                     <b-row>
                         <b-col cols="3" class="px-0">
@@ -86,7 +71,7 @@
                         </b-col>
                     </b-row>
                 </b-col>
-<!-- 6 -->
+<!-- 5 -->
                 <b-col cols="12" md="6" class="content mb-3">
                     <b-row>
                         <b-col cols="3" class="px-0">
