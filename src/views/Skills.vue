@@ -87,6 +87,22 @@
                         </b-col>
                     </b-row>
                 </b-col>
+<!-- 6 -->
+                <b-col cols="12" md="6" class="content mb-3">
+                    <b-row>
+                        <b-col cols="3" class="px-0">
+                            <b-img center :src="require('../assets/logo_php.png')" class="logo"></b-img> <!-- fluid-grow alt="Responsive image" -->
+                            <p class="name">PHP</p>
+                        </b-col>
+                        <b-col cols="9">
+                            <div class="progress">
+                                <div class="progress-bar img-wrap" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">20%</div>
+                            </div>
+                            <p>　基礎文法のみ学習済みです。</p>
+                            <p>　制作物等はなく、アウトプットができていません。これから更に学習を進めて習得を目指します。</p>
+                        </b-col>
+                    </b-row>
+                </b-col>
             </b-row>
         </b-container>
     </div>
