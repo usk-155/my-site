@@ -13,7 +13,9 @@
                 <b-col cols="12" md="6" class="content mb-3">
                     <b-row>
                         <b-col cols="3" class="px-0">
-                            <b-img center :src="require('../assets/logo_htmlcss.png')" class="logo"></b-img> <!-- fluid-grow alt="Responsive image" -->
+                            <div class="logoSize">
+                                <b-img center :src="require('../assets/logo_htmlcss.png')" class="logo"></b-img> <!-- fluid-grow alt="Responsive image" -->
+                            </div>
                             <p class="name">HTML&thinsp;/&thinsp;CSS</p>
                         </b-col>
                         <b-col cols="9">
@@ -28,7 +30,9 @@
                 <b-col cols="12" md="6" class="content mb-3">
                     <b-row>
                         <b-col cols="3" class="px-0">
-                            <b-img center :src="require('../assets/logo_javascript.png')" class="logo"></b-img> <!-- fluid-grow alt="Responsive image" -->
+                            <div class="logoSize">
+                                <b-img center :src="require('../assets/logo_javascript.png')" class="logo"></b-img> <!-- fluid-grow alt="Responsive image" -->
+                            </div>
                             <p class="name">Javascript</p>
                         </b-col>
                         <b-col cols="9">
@@ -44,7 +48,9 @@
                 <b-col cols="12" md="6" class="content mb-3">
                     <b-row>
                         <b-col cols="3" class="px-0">
-                            <b-img center :src="require('../assets/logo_bootstrap.png')" class="logo"></b-img> <!-- fluid-grow alt="Responsive image" -->
+                            <div class="logoSize">
+                                <b-img center :src="require('../assets/logo_bootstrap.png')" class="logo"></b-img> <!-- fluid-grow alt="Responsive image" -->
+                            </div>
                             <p class="name">Bootstrap</p>
                         </b-col>
                         <b-col cols="9">
@@ -60,7 +66,9 @@
                 <b-col cols="12" md="6" class="content mb-3">
                     <b-row>
                         <b-col cols="3" class="px-0">
-                            <b-img center :src="require('../assets/logo_vuejs.png')" class="logo"></b-img> <!-- fluid-grow alt="Responsive image" -->
+                            <div class="logoSize">
+                                <b-img center :src="require('../assets/logo_vuejs.png')" class="logo"></b-img> <!-- fluid-grow alt="Responsive image" -->
+                            </div>
                             <p class="name">Vue.js</p>
                         </b-col>
                         <b-col cols="9">
@@ -75,7 +83,9 @@
                 <b-col cols="12" md="6" class="content mb-3">
                     <b-row>
                         <b-col cols="3" class="px-0">
-                            <b-img center :src="require('../assets/logo_firebase.png')" class="logo"></b-img> <!-- fluid-grow alt="Responsive image" -->
+                            <div class="logoSize">
+                                <b-img center :src="require('../assets/logo_firebase.png')" class="logo"></b-img> <!-- fluid-grow alt="Responsive image" -->
+                            </div>
                             <p class="name">firebase</p>
                         </b-col>
                         <b-col cols="9">
@@ -91,7 +101,9 @@
                 <b-col cols="12" md="6" class="content mb-3">
                     <b-row>
                         <b-col cols="3" class="px-0">
-                            <b-img center :src="require('../assets/logo_php.png')" class="logo"></b-img> <!-- fluid-grow alt="Responsive image" -->
+                            <div class="logoSize">
+                                <b-img center :src="require('../assets/logo_php.png')" class="logo"></b-img> <!-- fluid-grow alt="Responsive image" -->
+                            </div>
                             <p class="name">PHP</p>
                         </b-col>
                         <b-col cols="9">
@@ -146,13 +158,18 @@ p {
 
 /* 
 .logo {
-    max-height: 100px;
+    max-width: 50px;
     margin: auto 5px;
 } */
+.logoSize {
+    height: 70px;
+    align-items: center;
+    display: flex;
+}
 
 .logo {
     max-width: 50px;
-    margin: auto 5px;
+    margin: 0 5px;
 }
 
 .name {
